@@ -1,1 +1,134 @@
-/* Your styles go here */
+.go{background-color:#CCCCCC;}
+.go a:hover{ 
+	float: left;
+	color: red;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: green;
+	background-color:white;
+	}
+	.go a{ 
+	float: left;
+	color: blue;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: green;
+	background-color:#cccccc;
+	}
+	
+.menu { margin-top:30px; margin-left:180px; position:absolute; width:1740px;}
+.menu u1{
+	width: 800px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none; border-color:#CCCCCC;
+	
+}
+.main{ background-color:#CCCCcc; position:absolute; width:1300px; height:90px;
+}
+
+.menu ul{ padding:'padding-right':1px; 
+	margin: 0;
+
+	float: left;
+	width: 60%;
+	background: #004080;
+	border-top-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000
+}
+
+.menu ul li{
+display: inline; 
+}
+
+.menu ul li a{ 
+	float: left;
+	color: #FFFFFF;
+	padding: 5px 11px;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+
+.menu ul li a:visited{
+color: #FFFFFF;
+}
+
+.menu ul li a:hover, .h_mnu_01 ul li .selected{
+	color: black; !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: white;
+}
+#bot{position:absolute border:inherit; background-color:#cccccc; padding:25px; font-size:20px;
+margin-top:1px; height:110px;  
+ }
+
+ .h_mnu_01{
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.h_mnu_01 ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+	background: #004080;
+	border-top-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000
+}
+
+.h_mnu_01 ul li{
+display: inline;
+}
+
+.h_mnu_01 ul li a{
+	float: left;
+	color: #FFFFFF;
+	padding: 5px 11px;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+
+.h_mnu_01 ul li a:visited{
+color: #FFFFFF;
+}
+
+.h_mnu_01 ul li a:hover, .h_mnu_01 ul li .selected{
+	color: #FFFF00 !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #008000;
+}
